@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #009a22;
+}
+#intro{
+    background-image: url("./matrix.png");
+}
+.container{
+    border: 1px solid #009a22;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+#intro, #form, #questionDiv{
+    width: 40vw;
+}
+#form, #question{
+    height: auto;
+}
+#intro{
+    height: 15vh;
+}
+#form label{
+  margin-bottom: auto;
+}
+#form {
+    padding: 30px;
+}
+input{
+    border: none;
+}
